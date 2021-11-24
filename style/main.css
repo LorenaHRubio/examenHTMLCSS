@@ -1,0 +1,149 @@
+/*====================
+=======Structure======
+======================*/
+
+body{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: hsl(210, 11%, 15%);
+    text-align: left;
+    font-family: Roboto,"Helvetica Neue",Arial;
+}
+img{
+    width: 100%;
+}
+/*===============
+=======BODY======
+===============*/
+
+.main-element{
+    width:60%;
+    padding: 0 20%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.main-element-image{
+    margin: 1em;
+}
+#ofert-price{
+    font-weight: bold;
+    color: hsl(0, 100%, 50%);
+}
+#price-line{
+    padding-left: 0.5em;
+    text-decoration: line-through;
+    color: hsl(60, 0%, 48%);
+}
+.price
+{
+    display: flex;
+}
+.element-white{
+    position: absolute;
+    z-index: 1001;
+    width: 2em;
+    height: 2em;
+    background-color: hsl(0, 0%, 100%);
+}
+.element-white svg{
+    padding: 0.25em;
+}
+#image-top-left{
+    top:5%;
+    left: 35%;
+}
+#image-top-center{
+    top:5%;
+    left: 52.5%;
+}
+#image-top-right{
+    top:5%;
+    left: 70%;
+}
+#image-button-left{
+    top: 70%;
+    left: 35%;
+}
+#image-button-center{
+    top: 70%;
+    left: 52.5%;
+}
+#image-button-right{
+    top: 70%;
+    left: 70%;
+}
+.element-red{
+    position: absolute;
+    z-index: 1001;
+    background-color: hsl(348, 83%, 47%);
+    width: 4.5em;
+    height: 1.5em;
+}
+.element-red p{
+    font-weight: 700;
+    padding: 0.4em;
+    color: hsl(0, 0%, 100%);
+    font-size: .7em;
+}
+#top-left{
+    top:43.5%;
+    left: 25.8%;
+}
+#top-center{
+    top:43.5%;
+    left: 43.3%;
+}
+#top-right{
+    top:43.5%;
+    left: 60.7%;
+}
+#button-left{
+    top: 104%;
+    left: 25.8%;
+}
+#button-center{
+    top: 104%;
+    left: 43.3%;
+}
+#button-right{
+    top: 104%;
+    left: 60.7%;
+}
+.element-ofert-week{
+    position: absolute;
+    z-index: 1001;
+    width: 5.5em;
+    height: 1.5em;
+    background-color: hsl(0, 0%, 100%);
+}
+.element-ofert-week p{
+    font-weight: 700;
+    text-align: center;
+    padding: 0.4em;
+    font-size: .7em;
+}
+#ofert-top-left{
+    top:43.5%;
+    left: 20.8%;
+}
+#ofert-top-center{
+    top:43.5%;
+    left: 38.3%;
+}
+#ofert-top-right{
+    top:43.5%;
+    left: 55.7%;
+}
+#ofert-button-left{
+    top: 104%;
+    left: 20.8%;
+}
+#ofert-button-center{
+    top: 104%;
+    left: 38.3%;
+}
+#ofert-button-right{
+    top: 104%;
+    left: 55.8%;
+}
