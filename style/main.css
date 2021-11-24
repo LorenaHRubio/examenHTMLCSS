@@ -40,6 +40,7 @@ img{
     display: flex;
 }
 .element-white{
+    cursor: pointer;
     position: absolute;
     z-index: 1001;
     width: 2em;
@@ -99,15 +100,15 @@ img{
     left: 60.7%;
 }
 #button-left{
-    top: 104%;
+    top: 101%;
     left: 25.8%;
 }
 #button-center{
-    top: 104%;
+    top: 101%;
     left: 43.3%;
 }
 #button-right{
-    top: 104%;
+    top: 101%;
     left: 60.7%;
 }
 .element-ofert-week{
@@ -136,14 +137,14 @@ img{
     left: 55.7%;
 }
 #ofert-button-left{
-    top: 104%;
+    top: 101%;
     left: 20.8%;
 }
 #ofert-button-center{
-    top: 104%;
+    top: 101%;
     left: 38.3%;
 }
 #ofert-button-right{
-    top: 104%;
-    left: 55.8%;
+    top: 101%;
+    left: 55.7%;
 }
